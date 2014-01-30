@@ -1,0 +1,69 @@
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 200;
+    color: #666;
+}
+h2 {
+    font-weight: bold;
+    color: #333;
+    font-size: 18px;
+}
+a {
+    color: #0099e5;
+    text-decoration: none;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.page {
+    width: 800px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    background-color: #fff;
+}
+
+
+
+#tabs {
+
+}
+#tabs nav {
+    
+}
+
+#tabs nav .btn {
+    display: inline-block;
+    color: #000;
+    background-color: #eee;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    padding: 0 10px;
+    float: left;
+}
+#tabs nav .btn.active {
+    background-color: #ccc;
+}
+
+ #tabs nav .btn:hover {
+    background-color: #ddd;
+}
+
+#tabs .content {
+    display: block;
+    border: 1px solid #999;
+    min-height: 100px;
+    padding: 10px;
+}
