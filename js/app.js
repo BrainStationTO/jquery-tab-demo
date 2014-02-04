@@ -1,6 +1,6 @@
 $(function () {
 	$('#tabs .content').hide();
-	$('#tabs nav .btn[data-tab="tab1"').addClass("active");
+	$('#tabs nav .btn[data-tab="tab1"]').addClass("active");
 
 	$('#tabs .content#tab1').show();
 
